@@ -1,12 +1,6 @@
 ---------------------------------------------
 -- Deliverable 1
 
-select emp_no, first_name, last_name
-from employees
-
-select title, from_date, to_date 
-from titles
-
 select e.emp_no, e.first_name, e.last_name, ti.title, ti.from_date, ti.to_date
 INTO retirement_titles
 FROM employees as e
